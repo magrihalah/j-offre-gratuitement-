@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750257114809",
+    "project_id": "offrirgratuitement",
+    "storage_bucket": "offrirgratuitement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750257114809:android:81973183d5318e2f109568",
+        "android_client_info": {
+          "package_name": "com.example.offrirgratuitement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750257114809-upq0ibvil4ukp80f31jiagsfb3dv7nbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1pI6RaJw3r9JGmWyALABehQrYccPeQrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750257114809-upq0ibvil4ukp80f31jiagsfb3dv7nbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

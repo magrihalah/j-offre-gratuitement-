@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/personal_logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/charity2"
+        />
+
+    <TextView
+        android:id="@+id/personal_email_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse mail :"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/personal_logo"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/personal_input_email_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/personal_email_txt_view"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/personal_name_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom complet :"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/personal_input_email_txt_view"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/personal_input_name_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/personal_name_txt_view"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/personal_number_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro de téléphone :"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/personal_input_name_txt_view"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/personal_input_number_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/personal_number_txt_view"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/personal_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:drawableLeft="@drawable/ic_back"
+        android:text="Retour"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:padding="20sp"
+        />
+
+
+</RelativeLayout>
